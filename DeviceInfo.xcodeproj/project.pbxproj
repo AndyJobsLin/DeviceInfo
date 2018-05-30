@@ -12,6 +12,7 @@
 		FD6C0C1F20BE445B0069B9B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6C0C1D20BE445B0069B9B0 /* Main.storyboard */; };
 		FD6C0C2120BE445E0069B9B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6C0C2020BE445E0069B9B0 /* Assets.xcassets */; };
 		FD6C0C2420BE445E0069B9B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6C0C2220BE445E0069B9B0 /* LaunchScreen.storyboard */; };
+		FD6C0C2C20BE9CCD0069B9B0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C0C2B20BE9CCD0069B9B0 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD6C0C2020BE445E0069B9B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD6C0C2320BE445E0069B9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6C0C2520BE445E0069B9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6C0C2B20BE9CCD0069B9B0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FD6C0C1820BE445B0069B9B0 /* DeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
+				FD6C0C2B20BE9CCD0069B9B0 /* LoginViewController.swift */,
 				FD6C0C1920BE445B0069B9B0 /* AppDelegate.swift */,
 				FD6C0C1B20BE445B0069B9B0 /* ViewController.swift */,
 				FD6C0C1D20BE445B0069B9B0 /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6C0C2C20BE9CCD0069B9B0 /* LoginViewController.swift in Sources */,
 				FD6C0C1C20BE445B0069B9B0 /* ViewController.swift in Sources */,
 				FD6C0C1A20BE445B0069B9B0 /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DR6QZ9TL24;
 				INFOPLIST_FILE = DeviceInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DR6QZ9TL24;
 				INFOPLIST_FILE = DeviceInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
